@@ -45,7 +45,7 @@ public class Calculator {
       case "+" -> add();
       case "-" -> subtract();
       case "*" -> multiply();
-      case null, default -> divide();
+      case "/" -> divide();
     }
   }
 }
